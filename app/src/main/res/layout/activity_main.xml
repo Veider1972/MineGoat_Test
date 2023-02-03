@@ -8,27 +8,56 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/test_button"
+        android:id="@+id/pick_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press me"
+        android:text="Выбрать данные"
         tools:ignore="MissingConstraints"/>
     <Button
-        android:id="@+id/test_button1"
+        android:id="@+id/get_file_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press me"
+        android:text="Получить файл"
         tools:ignore="MissingConstraints"/>
     <Button
-        android:id="@+id/test_button2"
+        android:id="@+id/show_image_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press me"
+        android:text="Показать картинку"
+        tools:ignore="MissingConstraints"/>
+    <Button
+        android:id="@+id/show_video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать видео"
+        tools:ignore="MissingConstraints"/>
+    <Button
+        android:id="@+id/show_pdf_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать PDF"
+        tools:ignore="MissingConstraints"/>
+    <Button
+        android:id="@+id/show_doc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать DOC"
+        tools:ignore="MissingConstraints"/>
+    <Button
+        android:id="@+id/show_clean_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Обновить кэш"
         tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 
 </LinearLayout>
